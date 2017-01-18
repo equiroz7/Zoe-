@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications" name="LEDAlignment_v4" location="G:\GXD Projects\GALILEO\MATLAB\build\D096951 LEDAlignment\MTF_LEDAlignment_v4.1_source" file="G:\GXD Projects\GALILEO\MATLAB\build\D096951 LEDAlignment\MTF_LEDAlignment_v4.1_source\LEDAlignment_v4.prj" preferred-package-type="package.type.exe" build-checksum="1133800511" preferred-package-location="G:\GXD Projects\GALILEO\MATLAB\build\D096951 LEDAlignment\MTF_LEDAlignment_v4.1_source\LEDAlignment_v4\for_redistribution">
+    <param.appname>LEDAlignment_v4</param.appname>
+    <param.authnamewatermark>Emmanuel Quiroz</param.authnamewatermark>
+    <param.email>Emmanuel_Quiroz@bio-rad.com</param.email>
+    <param.company>Bio-Rad Labs</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>LED Alignment SW for ZOE Cell Imager v4</param.summary>
+    <param.description>This SW is used for aligning the LEDs in the ZOE Fluorescent Cell Imager so taht the sample is uniformally illuminated. Version 4 changes the Ch 3 alignment spec from &gt;/= 0.85 to 0.83.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.namespace>LEDAlignment_v4</param.namespace>
+    <param.guid />
+    <param.installpath.string>\Bio-Rad Labs\LEDAlignment_v4\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\LEDAlignment_v4\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\LEDAlignment_v4\for_redistribution</param.output>
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.user.defined.mcr.options />
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.mads.no.java>false</param.mads.no.java>
+    <param.mads.exclusive.mcr>false</param.mads.exclusive.mcr>
+    <param.net.framework>option.net.framework.default</param.net.framework>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace>LEDAlignment_v4</param.net.tsa.namespace>
+    <param.net.tsa.superclass />
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>C:\Users\equiroz\Documents\MATLAB</param.net.tsa.metadata.assembly>
+    <param.create.log>true</param.create.log>
+    <param.log.file>LEDAlignment_v4_Log</param.log.file>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.namespace />
+      <param.guid />
+      <param.installpath.string />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.user.defined.mcr.options />
+      <param.windows.command.prompt />
+      <param.user.only.registration />
+      <param.mads.no.java />
+      <param.mads.exclusive.mcr />
+      <param.net.framework />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\LEDAlignment_v4.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\errMapFun.m</file>
+      <file>${PROJECT_ROOT}\flatnessErrorMap_fixture.m</file>
+      <file>${PROJECT_ROOT}\heatmap.m</file>
+      <file>${PROJECT_ROOT}\imreadRaw.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file name="readme.txt" location="${PROJECT_ROOT}\LEDAlignment_v4\for_testing" optional="true">G:\GXD Projects\GALILEO\MATLAB\build\D096951 LEDAlignment\MTF_LEDAlignment_v4.1_source\LEDAlignment_v4\for_testing\readme.txt</file>
+      <file name="LEDAlignment_v4.exe" location="${PROJECT_ROOT}\LEDAlignment_v4\for_testing" optional="false">G:\GXD Projects\GALILEO\MATLAB\build\D096951 LEDAlignment\MTF_LEDAlignment_v4.1_source\LEDAlignment_v4\for_testing\LEDAlignment_v4.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2013b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
+
